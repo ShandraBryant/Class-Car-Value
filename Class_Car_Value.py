@@ -19,8 +19,8 @@ class Car:
     def print_info(self):
         print("Car's information: ")
         print("  Model year:" ,self.model_year)
-        print("  Purchase price: $", self.purchase_price)
-        print("  Current value:  $", self.current_value)
+        print("  Purchase price:", self.purchase_price)
+        print("  Current value:", self.current_value)
 
 if __name__ == "__main__":
     year = int(input())
